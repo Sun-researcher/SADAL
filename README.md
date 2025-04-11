@@ -7,7 +7,7 @@ Download **Pretrained weight** from [here](https://github.com/rwightman/pytorch-
 
 ## Environment
 
-Use the provided `Dockerfile` to set up the required environment.
+Use the provided `data/Dockerfile` to set up the required environment.
 
 ## Data Preprocessing
 

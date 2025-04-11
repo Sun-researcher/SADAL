@@ -226,7 +226,6 @@ if __name__ == '__main__':
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
-    # 使用多种伪造类别
     image_dataset = DataLoader_multi_source_and_target(phase='train', image_size=256, n_frames=8,
                                                          forgery=['Deepfakes', 'Face2Face', 'FaceSwap','NeuralTextures'])
     batch_size = 16

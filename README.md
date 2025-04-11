@@ -1,7 +1,5 @@
 # Generalized Deepfake Detection via Source-Augment Domain Adversarial Learning
 
-# Face Forgery Detection Pipeline
-
 ## Dataset
 
 Download **FaceForensics++** from [here](https://github.com/ondyari/FaceForensics).

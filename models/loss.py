@@ -12,7 +12,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 
 
-def adv(features, ad_net): #域判别损失
+def adv(features, ad_net):
     ad_out = ad_net(features)
     batch_size = ad_out.size(0) // 2
     dc_target = torch.from_numpy(np.array([[1]] * batch_size + [[0]] * batch_size)).float().to(features.device)

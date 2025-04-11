@@ -60,6 +60,7 @@ def save_model(args, model, is_adv=False):
 def setup(args):
 
     model = vit_base_patch16_224_in21k()
+    model.load_state_dict(torch.load(args.pretrained_dir))
     in_features = model.head.in_features
     model.head = nn.Linear(in_features, args.num_classes)
     num_params = count_parameters(model)

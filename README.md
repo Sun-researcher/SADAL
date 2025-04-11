@@ -3,7 +3,7 @@
 ## Dataset
 
 Download **FaceForensics++** from [here](https://github.com/ondyari/FaceForensics) and place it in the `data` directory.
-Download **Pretrain weight** from [here] (https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_patch16_224_in21k-e5005f0a.pth) and place it in the `preprocess` directory.
+Download **Pretrain weight** from [here](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_patch16_224_in21k-e5005f0a.pth) and place it in the `preprocess` directory.
 
 ## Environment
 

@@ -18,7 +18,7 @@ def save_FF(forgery='FaceShifter',img_size=(224,224),n_frames=2):
     dataset_path_fake = 'data/FaceForensics++/manipulated_sequences/*/c23/frames/'
     image_list = []
     label_list = []
-    #修改假图片路径
+
     dataset_path_fake = dataset_path_fake.replace('*', forgery)
     folder_list_fake = sorted(glob(dataset_path_fake + '*'))
     print(len(folder_list_fake))

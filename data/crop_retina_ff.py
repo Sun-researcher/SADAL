@@ -113,7 +113,6 @@ if __name__ == '__main__':
             if len(glob(folder_path.replace('/frames/', '/retina/') + '*.npy')) < args.num_frames:
                 facecrop(model, movies_path_list[i], save_path=dataset_path, num_frames=args.num_frames)
 
-# 终端运行
 # python3 src/preprocess/crop_dlib_ff.py -d Original
 # CUDA_VISIBLE_DEVICES=*
 # python3 src/preprocess/crop_retina_ff.py -d Original

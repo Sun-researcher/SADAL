@@ -16,6 +16,7 @@ Run the following commands to perform face cropping and data formatting:
 python3 data/crop_dlib_ff.py
 python3 data/crop_retina_ff.py
 python3 data/FF_save.py
+```
 
 ## Training
 

@@ -2,7 +2,7 @@
 
 ## Dataset
 
-Download **FaceForensics++** from [here](https://github.com/ondyari/FaceForensics).
+Download **FaceForensics++** from [here](https://github.com/ondyari/FaceForensics) and place it in the `data` directory.
 
 ## Environment
 
@@ -23,5 +23,6 @@ python3 data/FF_save.py
 Create the output directory first:
 ```bash
 mkdir -p output/ssrt
-python3 main.py --train_batch_size 10 --dataset vssrt --name c23 --fp16
+# then
+python3 main.py --train_batch_size 10 --dataset ssrt --name c23 --fp16
 
